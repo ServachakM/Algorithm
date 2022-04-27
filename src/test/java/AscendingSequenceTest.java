@@ -8,7 +8,7 @@ public class AscendingSequenceTest {
          as = new AscendingSequence();
     }
     @Order(1)
-    @RepeatedTest(50)
+    @RepeatedTest(5)
     @Test
     public void testAscendingSequenceHappyPathPositiveNumber(){
         // 0, 1, 2, 3, 4, 5
@@ -108,6 +108,21 @@ public class AscendingSequenceTest {
         int[] expectedResult = {};
 
        // AscendingSequence as = new AscendingSequence();
+        int[] actualResult = as.ascendingSequenceAlgorithm(start, end, step);
+
+        Assertions.assertArrayEquals(expectedResult, actualResult);
+
+    }
+
+    @Test
+    public void testAscendingSequenceStepTwo2(){
+
+        int start = -5;
+        int end = 5;
+        int step = 2;
+        int[] expectedResult = {-5, -3, -1, 1, 3, 5};
+
+        AscendingSequence as = new AscendingSequence();
         int[] actualResult = as.ascendingSequenceAlgorithm(start, end, step);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
