@@ -7,9 +7,10 @@ public class AscendingSequenceTest {
     void setUp(){
          as = new AscendingSequence();
     }
+
     @Order(1)
     @RepeatedTest(5)
-    @Test
+
     public void testAscendingSequenceHappyPathPositiveNumber(){
         // 0, 1, 2, 3, 4, 5
         int start = 0;

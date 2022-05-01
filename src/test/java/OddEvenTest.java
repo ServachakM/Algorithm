@@ -43,7 +43,7 @@ public class OddEvenTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
-    @Order(4)
+    @Order(5)
     @Test
     public void testOddEvenMaxValue() {
         long a = 2147483647L + 1;
@@ -54,7 +54,7 @@ public class OddEvenTest {
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
-    @Order(5)
+    @Order(4)
     @Test
     public void testOddEvenHappyPathMaxValue() {
         int a = 2147483647;
