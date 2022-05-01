@@ -1,7 +1,7 @@
 public class MinMaxAve {
 
     public int[] minMaxAve(int[] array, int start, int end){
-        if(array.length > 0 && start >= 0 && end < array.length
+        if(array != null && array.length > 0 && start >= 0 && end < array.length
                 && start <= end){
             int min = Integer.MAX_VALUE;
             for (int i = start; i <= end; i++) {

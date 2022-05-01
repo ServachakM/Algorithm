@@ -9,8 +9,8 @@ public class ReverseArray {
                result[count] = array[i];
                count++;
             }
-            return result;
         }
+
         return result;
     }
 
