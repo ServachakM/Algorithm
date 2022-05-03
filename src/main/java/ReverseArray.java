@@ -1,7 +1,7 @@
 public class ReverseArray {
 
     public int[] reverseArray(int[] array){
-        int[] result = {};
+       int[] result = {};
         if(array.length > 0){
             result = new int[array.length];
             int count = 0;

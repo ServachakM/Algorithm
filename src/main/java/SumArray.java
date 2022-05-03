@@ -7,6 +7,7 @@ public class SumArray {
                 sum += array[i];
             }
         } else {
+
             return Integer.MIN_VALUE;
         }
 
