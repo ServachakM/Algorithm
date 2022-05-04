@@ -4,8 +4,11 @@ public class NegativeOnTheRight {
         int[] result = new int[array.length];
         int count = result.length - 1;
         int count2 = 0;
+
         if (array.length > 0) {
+
             for (int i = 0; i < array.length; i++) {
+
                 if (array[i] < 0) {
                     result[count] = array[i];
                     count--;
@@ -18,13 +21,6 @@ public class NegativeOnTheRight {
 
         return result;
     }
-
-//    public static void main(String[] args) {
-//        int[] arr = {4, -3, 7, -12, 5, -2, 9, 4, 12};
-//        int[] arr2 = {-4, -3, 7, -12, 5, -2, -9, 4, 12};
-//        System.out.println(Arrays.toString(negativeOnTheRight(arr)));
-//    }
-
 }
 
 
