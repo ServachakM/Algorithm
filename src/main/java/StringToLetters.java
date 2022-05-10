@@ -14,19 +14,14 @@ public class StringToLetters {
                     }
                 }
 
-               // strNew = str.replaceAll("[0-9]","");
-                return  strNew;
+                // strNew = str.replaceAll("[0-9]","");
+                return strNew;
             }
         }
 
         return "";
     }
-
-
-//    public static void main(String[] args) {
-//
-//        System.out.println(stringToLetters("   1 bghj 1255vgh 12365 cghnn   "));
-//        System.out.println(stringToLetters(" 12365479k  "));
-//        System.out.println(stringToLetters(" 12KJKGHGFDHDTG3652345678#$%^&*()h(*&^%479k  "));
-//    }
 }
+
+
+
