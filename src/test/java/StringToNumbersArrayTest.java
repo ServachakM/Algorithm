@@ -1,12 +1,12 @@
 import org.junit.jupiter.api.*;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 
-public class StringToNumbersTest {
-     StringToNumbers result;
+public class StringToNumbersArrayTest {
+     StringToNumbersArray result;
 
      @BeforeEach
     void setup(){
-         result = new StringToNumbers();
+         result = new StringToNumbersArray();
      }
 
      @Order(1)

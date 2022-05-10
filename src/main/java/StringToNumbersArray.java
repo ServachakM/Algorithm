@@ -1,4 +1,4 @@
-public class StringToNumbers {
+public class StringToNumbersArray {
 
     public int[] stringToNumbers(String str) {
         if (str != null) {
