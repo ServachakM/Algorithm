@@ -1,6 +1,7 @@
 public class StartsWithLetter {
 
     public String startsWithLetter(String text, String letter) {
+
         if (text != null && letter != null) {
             if (text.length() > 0 && letter.length() > 0) {
                 text = text.replace(",", "").replace

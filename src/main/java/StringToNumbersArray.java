@@ -17,7 +17,8 @@ public class StringToNumbersArray {
 
                 for (int i = 0; i < str.length(); i++) {
                     if (str.charAt(i) > 47 && str.charAt(i) < 58) {
-                        result[count] = Integer.parseInt(Character.toString(str.charAt(i)));
+                        result[count] = Integer.parseInt(
+                                Character.toString(str.charAt(i)));
                         count++;
                     }
                 }
@@ -28,6 +29,4 @@ public class StringToNumbersArray {
 
         return new int[]{};
     }
-
-
 }
